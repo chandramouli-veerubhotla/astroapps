@@ -1,0 +1,64 @@
+<!-- <form>
+    <section class="dashboard-section flex middle">
+        <div class="container-fluid w-95">
+            <div class="row">
+                <div class="col col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container">
+                                <h4 class="card-title">Upload Meeting</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Make the meeting searchable</h6>
+
+                                <mat-form-field appearance="outline">
+                                    <mat-label><i class="fas fa-user"></i> Name</mat-label>
+                                    <input matInput placeholder="speaker name" required formControlName="name">
+                                    <mat-hint>Name the meeting</mat-hint>
+                                </mat-form-field>
+                                <app-chip-input
+                                    label="Tags"
+                                    iconClass="fas fa-tags"
+                                    hint="Press enter or comma after each tag"
+                                    placeholder="Add tags to easily identify meeting"
+                                    removable=true
+                                    [value]="meetingForm.get('tags')['controls']"
+                                    (chipEvent)="updateTags($event)"
+                                ></app-chip-input>
+                                <label>Audio*</label>
+                                <div class="upload-zone">                                    
+                                    <input type="file" (change)="onFileChange($event)" class="form-control" accept="audio/wav">
+                                    <p *ngIf="audioSource != null">Size: {{(audioSource.size / (1024*1024)).toFixed(2)}} MB</p>
+                                </div>
+                                <mat-hint>Only .wav format is supported</mat-hint>
+                            </div>
+                        </div>
+                        <mat-progress-bar mode="determinate" [value]="uploadPercentage" *ngIf="meetingForm.valid"></mat-progress-bar>
+                        <div class="card-footer">
+                            <div class="container">
+                                <button class="btn btn-success btn-lg submit" type="submit"
+                                    [disabled]="meetingForm.invalid || audioSource == null"><i class="fas fa-sign-in-alt"></i>
+                                    Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="content">
+                        <div class="text-box-info">
+                            <h2 class="poppins">What we do with your meeting?</h2>
+                            <p class="roboto">To enable intelligent search, we run you meeting through various AI pipelines like</p>
+                            <p></p>
+                            <ul>
+                                <li class="poppins">Identify speakers of your meeting</li>
+                                <li class="poppins">Transcribing to english</li>
+                                <li class="poppins">punctuating raw transcription</li>
+                                <li class="poppins">Summarize the meeting</li>
+                                <li class="poppins">Index transcribed</li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+</form> -->

@@ -1,0 +1,14 @@
+<header class="font-google-sans">
+  <section class="container-fluid">
+    <a href=""><span class="logo-header"><span class="logo-header-inner"><i class="fas fa-sun"></i> Astro</span> Apps </span></a>
+  </section>  
+</header>
+<section class="main-content">
+  <div class="banner font-google-sans">
+    <i class="fas fa-sun" *ngIf="currentTime < 12"></i>
+    <i class="fas fa-cloud-sun" *ngIf="currentTime >= 12 && currentTime <= 18"></i>
+    <i class="fas fa-moon" *ngIf="currentTime > 18"></i> Hi {{greeting}}!
+  </div>
+  
+  <router-outlet></router-outlet>
+</section>

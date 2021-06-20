@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */;
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+html, body { height: 100%; overflow-x: hidden;}
+
+body { 
+    @extend .font-google-sans;
+    margin: 0;    
+    background-color: #f8f9fa;
+}
+
+.container-fluid { 
+    margin: auto;
+    width: 97%;
+}
+
+.font-google-sans {
+    font-family: "Google Sans", "Roboto", sans-serif; 
+}
+
+
+

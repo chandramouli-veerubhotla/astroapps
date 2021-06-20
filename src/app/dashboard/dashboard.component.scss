@@ -1,0 +1,26 @@
+.container-fluid {
+    width: 98%;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.card {
+    width: 100%;
+    margin-top: 0.5rem;
+    
+    .card-body {
+        padding: 2rem;
+
+        .card-title {
+            color: #e94b60;
+            font-size: 1.5rem;
+            
+            i {
+                padding-right: 0.5rem;
+            }
+        }
+    }
+}
