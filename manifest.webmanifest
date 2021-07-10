@@ -1,8 +1,8 @@
 {
-  "name": "Astro Apps",
-  "short_name": "Astro Apps",
+  "name": "Astroapps",
+  "short_name": "Astroapps",
   "theme_color": "#fff",
-  "background_color": "#e94b60",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
