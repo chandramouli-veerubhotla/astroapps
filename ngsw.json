@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624214379678,
+  "timestamp": 1625902050826,
   "index": "/astroapps/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/astroapps/favicon.ico",
         "/astroapps/index.html",
-        "/astroapps/main.cb3d0cf41687e6aeef39.js",
+        "/astroapps/main.d6c410a41a7e13c36fbc.js",
         "/astroapps/manifest.webmanifest",
         "/astroapps/polyfills.d117e781f0e41ee60e63.js",
         "/astroapps/runtime.aac4da9a1e0d97b87d16.js",
-        "/astroapps/styles.2aee98bd3dbdb2ede3f8.css"
+        "/astroapps/styles.587ad5a9358bde3a656e.css"
       ],
       "patterns": []
     },
@@ -82,12 +82,12 @@
     "/astroapps/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/astroapps/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "/astroapps/favicon.ico": "3e9aa36093a1897b33e14ae660a143929ce6dbb8",
-    "/astroapps/index.html": "b1219ab2a93ece3ad97426c67a417fff2d5b5ee1",
-    "/astroapps/main.cb3d0cf41687e6aeef39.js": "efbfb36811aa79b54363159620edba286629befa",
+    "/astroapps/index.html": "f9ce16daf589890c209a4b3772cd87bee48c6ab8",
+    "/astroapps/main.d6c410a41a7e13c36fbc.js": "549df096ba41f868ea174718e63222a6ff1b0ac1",
     "/astroapps/manifest.webmanifest": "8969dfba7ff37cde2c1797f635f00662b10d8797",
     "/astroapps/polyfills.d117e781f0e41ee60e63.js": "a950e1db22450da08132d59bd4026ebb7b29f674",
     "/astroapps/runtime.aac4da9a1e0d97b87d16.js": "f05aec7c0c8893f0b9babcb309cc159547e439d3",
-    "/astroapps/styles.2aee98bd3dbdb2ede3f8.css": "26e89acdaa95397c83b5a2742b42fe756d3a203f"
+    "/astroapps/styles.587ad5a9358bde3a656e.css": "2886ffbd74ef7558639154251c1e15fa0b2032b6"
   },
   "navigationUrls": [
     {
