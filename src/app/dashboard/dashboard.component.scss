@@ -1,0 +1,50 @@
+@import '../variable';
+
+a {
+    margin-top: 0.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+@mixin mobileCard {
+    width: 100%;
+}
+
+// support till medium devices
+@media (max-width: map-get($map: $grid-breakpoints, $key: md)) {
+    a {
+        div.card {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+}
+
+// support all large devices
+@media (min-width: map-get($map: $grid-breakpoints, $key: md)) {
+    .card {
+        width: 500px;
+        float: left;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+}
+
+.card {
+    margin-top: 0.5rem;
+ 
+    .card-body {
+        padding: 1rem;
+
+        .card-title {
+            color: #e94b60;
+            font-size: 1.4rem;
+            padding-bottom: .5rem;
+            
+            i {
+                padding-right: .5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<mat-drawer-container hasBackdrop=true fullscreen>
+  <mat-drawer #drawer class="side-nav">
+    <div class="side-apps">
+      <h3>Apps</h3>
+      <app-dashboard></app-dashboard>
+    </div>    
+  </mat-drawer>
+  <mat-drawer-content>
+
+    <mat-toolbar>
+      <a href="" class="mat-ripple"><span class="logo-header"><span class="logo-header-inner"><i class="fas fa-sun"></i></span>  Astroapps</span></a>
+      <mat-icon *ngIf="isLogedIn()" class="text-success">admin_panel_settings</mat-icon>
+      <span class="space"></span>
+      <button mat-icon-button (click)="share()"><mat-icon>share</mat-icon></button>
+      <button mat-icon-button (click)="drawer.toggle()"><mat-icon>apps</mat-icon></button>    
+      <button mat-icon-button (click)="login()" *ngIf="!isLogedIn()"><mat-icon class='text-success'>manage_accounts</mat-icon></button>
+      <button mat-icon-button (click)="logout()" *ngIf="isLogedIn()"><mat-icon class='text-danger'>logout</mat-icon></button>  
+    </mat-toolbar>
+
+    <section class="main-content">
+      <router-outlet></router-outlet>
+    </section>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+
+

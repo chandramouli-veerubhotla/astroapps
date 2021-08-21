@@ -1,0 +1,19 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$primary-color: #e94b60; //#ff4063;
+$secondary-color: #1976d2;
+$text-color: #000;
+
+$primary-font: "";
+$secondary-font: "";
+
+.primary-color {
+  color: $primary-color;
+}

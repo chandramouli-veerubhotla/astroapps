@@ -1,0 +1,66 @@
+@import '../../variable';
+
+mat-toolbar-row {
+    width: 100%;
+    height: 4.5rem;
+
+    padding: 16px;
+    margin: 0;
+
+    color: #5f6368;
+    background-color: #FFF;
+    border-bottom: 1px solid #dadce0;
+
+    z-index: 100;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+
+    mat-slide-toggle {
+        margin-right: 0.5rem;
+    }
+
+    span {
+        cursor: pointer;
+        font-weight: 500;
+    }
+}
+
+.fixed {
+    position: fixed;
+    position: -webkit-fixed;
+}
+
+section.main-content {
+    position: absolute;
+    margin-top: 4.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.date-hero {
+    width: 100%;
+    padding: 1rem;
+    background-color: $primary-color;
+    color: #fff;
+
+    span {
+        width: 100%;
+        display: block;
+    }
+
+    span[class='month'] {
+        font-size: 2rem;
+    }
+
+    span[class='date'] {
+        font-size: 3.5rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    span[class='day'] {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+}

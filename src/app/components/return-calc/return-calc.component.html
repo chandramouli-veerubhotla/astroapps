@@ -1,0 +1,32 @@
+<section>
+    <h3 class="primary-color"><mat-icon>payments</mat-icon> Returns Calculator</h3>
+
+    <div class="card-body">
+        <form>
+            <label>Deposit</label>
+            <mat-form-field>
+                <mat-label>Amount</mat-label>
+                <input matInput type="number" #depositAmount>
+            </mat-form-field>
+
+            <label>Deposit Date</label>
+            <mat-form-field>
+                <mat-label>Choose a date</mat-label>
+                <input matInput [matDatepicker]="picker" (dateChange)="changeDate($event.value)">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+                <mat-hint>{{difference}} days left for {{yearEndDate | date: 'medium'}}</mat-hint>
+            </mat-form-field>
+
+            <label>% Return</label>
+            <mat-form-field>
+                <mat-label>Yearly percentage</mat-label>
+                <input matInput type="number" #percentage>
+            </mat-form-field>
+        </form>
+
+        <p>Interest: {{interestAmount | currency: 'INR'}}</p>
+        <p>Total: {{totalAmount | currency: 'INR'}}</p>
+        <button class="btn btn-primary btn-lg" (click)="calcReturns(depositAmount.value, percentage.value)">Calculate</button>
+    </div>    
+</section>

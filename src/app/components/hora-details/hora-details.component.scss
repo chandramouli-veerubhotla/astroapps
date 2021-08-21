@@ -1,0 +1,24 @@
+div.details {
+    background-color: #fff;
+    color: #000;
+
+    padding: 0.5rem;
+    border-bottom: 1px solid #dadce0;
+
+    mat-toolbar-row {
+        background-color: #f1f3f4;
+    }
+
+    span.time {
+        text-shadow: 1px 1px 4px rgb(0 0 0 / 10%);
+        font-weight: 600;
+        color: #5f6368;
+    }
+    
+
+    p {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+}
